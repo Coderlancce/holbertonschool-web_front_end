@@ -1,0 +1,16 @@
+/*Use two variables for asing two diferent colors*/
+$color: #3D3D3D;
+$bacground-color: #6D6D6D;
+
+body {
+    color: $color;
+    background-color: $bacground-color;
+}
+
+p {
+    color: $color;
+}
+
+h2 {
+    background-color: $bacground-color;
+}
