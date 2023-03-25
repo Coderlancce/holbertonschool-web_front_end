@@ -1,0 +1,13 @@
+/* mixin implement */
+@mixin them($them: size){
+    margin-left: $them;
+    margin-right: $them;
+}
+
+body {
+    @include them(10px);
+}
+
+div {
+    @include them(15px);
+}
