@@ -1,0 +1,10 @@
+/* size and more */
+body {
+    size: 14px;
+    h1 {
+        size: 16px;
+        &.smaller {
+            size: 12px;
+        }
+    }
+}
