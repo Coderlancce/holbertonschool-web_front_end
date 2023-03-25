@@ -1,10 +1,10 @@
 /* size and more */
 body {
-    size: 14px;
+    font-size: 14px;
     h1 {
-        size: 16px;
+        font-size: 16px;
         &.smaller {
-            size: 12px;
+            font-size: 12px;
         }
     }
 }
