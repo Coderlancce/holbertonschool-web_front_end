@@ -386,7 +386,7 @@ html{line-height:1.15;-webkit-text-size-adjust:100%}body{margin:0}main{display:b
 
   /* Section ABOUT US ============================= */
 
-  .section-about-us .col- {
+  .section-about-us [class*='col-'] {
     align-self: center;
   }
   
