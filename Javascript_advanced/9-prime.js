@@ -1,7 +1,5 @@
-// Prime numbers & timing execution
-
 function countPrimeNumbers(){
-    let numOfPrimeNums = 0
+    let numOfPrimeNums = 0;
 
     function isPrime(number) {
         colect = 1;
@@ -15,12 +13,12 @@ function countPrimeNumbers(){
                 }
             }
         }
-        return colect
+        return colect;
     }
 
     for (let num = 2; num < 101; num++) {
         if (isPrime(num) == 1) {
-            numOfPrimeNums += 1
+            numOfPrimeNums += 1;
         }
     }
 

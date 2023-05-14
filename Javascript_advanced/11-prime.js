@@ -13,7 +13,7 @@ function countPrimeNumbers(){
                 }
             }
         }
-        return colect
+        return colect;
     }
 
     for (let num = 2; num < 101; num++) {
@@ -26,8 +26,8 @@ function countPrimeNumbers(){
 }
 
 let a = performance.now();
-for (let i = 0; i < 100; i++){
-    countPrimeNumbers();
+for (let i = 0; i < 100; i++) {
+    setTimeout(function() { countPrimeNumbers(); }, 0);
 }
 let b = performance.now();
 
