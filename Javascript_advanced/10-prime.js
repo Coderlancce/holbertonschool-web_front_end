@@ -2,18 +2,18 @@ function countPrimeNumbers(){
     let numOfPrimeNums = 0
 
     function isPrime(number) {
-        status = 1;
+        colect = 1;
         if (number < 2) {
-            status = 0;
+            colect = 0;
         }
         else {
             for (let i = 2; i < number; i++) {
                 if (number % i === 0) {
-                    status = 0;
+                    colect = 0;
                 }
             }
         }
-        return status
+        return colect
     }
 
     for (let num = 2; num < 101; num++) {
